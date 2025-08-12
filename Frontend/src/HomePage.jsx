@@ -11,7 +11,7 @@ const images = [
 
 // starting positions (%)
 const positions = [
-  { top: 30,  left: 25  },
+  { top: 25,  left: 25  },
   { top: 40, left: 82 },
   { top: 65, left: 15 },
   { top: 70, left: 85 },
@@ -84,7 +84,7 @@ function HomePage() {
     >
       {/* Logo (color: black → white with progress) */}
       <h1
-        className="absolute z-10 font-bold sm:text-2xl md:text-6xl text-center"
+        className="absolute z-10 font-bold sm:text-3xl md:text-7xl text-center"
         style={{
           fontFamily: '"Arvo", serif',
           color: `rgb(${0 + 255 * progress}, ${0 + 255 * progress}, ${0 + 255 * progress})`,
